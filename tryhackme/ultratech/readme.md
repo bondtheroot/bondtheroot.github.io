@@ -22,7 +22,7 @@ Start with a port scan (nmap). Results found during enumeration:
 * Software using port **31331**: **Apache**
 * Probable GNU/Linux distribution: **Ubuntu**
 
-> Apache directory indexing was found (directory listing enabled) when browsing the web server (/images endpoint).
+Directory listing was enabled on Apache, can be verified by visiting the /images endpoint. On visiting the /js endpoint we find the api.js file which shows that the webserver uses 2 api endpoints (/auth and /ping).
 
 ---
 
